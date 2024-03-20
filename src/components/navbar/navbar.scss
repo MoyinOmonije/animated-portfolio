@@ -1,0 +1,26 @@
+.navbar{
+    height: 100px;
+
+    .wrapper{
+        max-width: 1366px; 
+        margin: auto;   //center the wrapper
+        display: flex; //items will be horizontal
+        align-items: center;
+        justify-content: space-between; //logo will be at the beginning of the space, with space in between that and the links icons
+        height: 100%;
+
+        .logo{
+            width: 100px;
+        }
+    }
+
+    .social{
+        display: flex;
+        gap: 20px;
+
+        img{
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
